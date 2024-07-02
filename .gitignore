@@ -1,0 +1,62 @@
+# Ignorar dependencias de Node.js
+/client/node_modules
+/server/node_modules
+
+# Ignorar archivos de logs
+/client/logs
+/server/logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de entorno
+/client/.env
+/server/.env
+
+# Ignorar build outputs
+/client/build
+/server/build
+/client/dist
+/server/dist
+
+# Ignorar directorios de cache
+/client/.cache
+/server/.cache
+
+# Ignorar archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos específicos de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Ignorar archivos de configuración de linting locales
+.eslintcache
+.prettierignore
+.prettiercache
+.stylelintignore
+.stylelintcache
+
+# Ignorar archivos de configuración de coverage
+/client/coverage
+/server/coverage
+
+# Ignorar archivos de configuración de servidores locales
+/client/.nuxt
+/server/.nuxt
+/client/.next
+/server/.next
+
+# Ignorar archivos de configuración de paquetes
+*.lock
+*.log
+
+# Otros archivos que puedes considerar
+*.bak
+*.tmp
+*.swp
+*.swpx
